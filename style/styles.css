@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-body {
+#bodyNosotros {
+    background-image: url('../resources/fondoNosotros.png');
+    background-size: cover;
+}
+
+#bodyHome {
     background-color: black;
 }
 
