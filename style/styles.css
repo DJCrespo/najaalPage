@@ -9,6 +9,11 @@
     background-color: black;
 }
 
+#multi{
+    background-image: url('../resources/fondoMulti.png');
+    background-size: cover;
+}
+
 header {
     margin-top: 0vh;
     height: 10vh;
@@ -112,6 +117,7 @@ li a{
     left: 10vw;
     top: 40vh;
     display: table;
+    text-decoration: none;
 }
 
 .servicios div{
@@ -121,18 +127,21 @@ li a{
     display: table-cell;
     position: initial;
     top: 0;
+    text-decoration: none;
 }
 
 .servicios h2{
     font-family: 'Poppins', sans-serif;
     color:  #f8ac11;
     font-size: medium;
+    text-decoration: none;
 }
 
 .servicios div p{
     font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 2.5vmin;
+    text-decoration: none;
 }
 
 .boton3{
