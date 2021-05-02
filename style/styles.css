@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/*Body*/
+
 #bodyServicios {
     background-image: url('../resources/fondoNosotros.png');
     background-size: cover;
@@ -17,6 +19,8 @@
     background-attachment: fixed;
     background-color: black;
 }
+
+/*Otros*/
 
 header {
     margin-top: 0vh;
@@ -166,6 +170,7 @@ li a{
     padding: 4px;
 }
 
+/*Parte generica, se puede aplicar en varias vistas*/
 
 .informacion {
     Width: 40%;
@@ -189,7 +194,7 @@ li a{
 }
 
 .imagen img{
-    width: 45%;
+    width: 55%;
 }
 
 .btn{
@@ -211,6 +216,8 @@ li a{
     text-decoration: none;
     padding: 4px;
 }
+
+/*Renderizado para movil*/
 
 @media only screen and (max-width:600px){
     .informacion, .imagen, .btn {
