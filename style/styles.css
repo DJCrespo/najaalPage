@@ -5,6 +5,10 @@
 #bodyServicios {
     background-image: url('../resources/fondoNosotros.png');
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
 }
 
 #bodyHome {
@@ -66,7 +70,7 @@ li a{
     border-radius: 30px;
     background-color: #f8ac11;
     text-decoration: none;
-    padding: 4px;
+    padding: 8px;
 }
 
 .logoNav{
@@ -82,22 +86,19 @@ li a{
 /*CSS servicios*/
 
 .servicios{
-    Width: 80vw;
     text-align: center;
-    position: absolute;
-    left: 10vw;
-    top: 35vh;
+    position: relative;
     display: table;
     text-decoration: none;
+    top: -15vh;
+    left: 3vw;
 }
 
 .servicios div{
-    padding: 4vh;
+    padding: 2.8vh;
     width: 20vw;
-    height: 80%;
     display: table-cell;
-    position: initial;
-    top: 0;
+    position: relative;
     text-decoration: none;
 }
 
@@ -115,22 +116,11 @@ li a{
     text-decoration: none;
 }
 
-.boton3{
-    position: absolute;
-    top: 85vh;
-    left: 45vw;
+.btn2{
+    width: 100%;
+    position: relative;
     text-align: center;
-}
-
-.boton3 h2{
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 3vmin;
-    background-size: cover;
-    border-radius: 30px;
-    background-color: #f8ac11;
-    text-decoration: none;
-    padding: 4px;
+    top: -14vh;
 }
 
 /*Parte generica, se puede aplicar en varias vistas*/
@@ -163,11 +153,11 @@ li a{
 
 .informacion {
     Width: 60%;
-    height: 100%;
     float: left;
     text-align: left;
     position: relative;
     left: 8vw;
+    top:-5vh;
 }
 
 .informacion p{
@@ -182,17 +172,9 @@ li a{
     text-align: center;
 }
 
-.imagen img{
-    width: 60%;
-}
-
 .btn{
     width: 100%;
     position: relative;
-    float: right;
-    top: 10vh;
-    text-align: right;
-    right: 15vw;
 }
 
 .boton4{
@@ -209,15 +191,39 @@ li a{
 /*Renderizado para movil*/
 
 @media only screen and (max-width:600px){
-    .informacion, .imagen, .btn {
+    .informacion, .imagen, .btn{
         width: 100%;
     }
+
+    .informacion{
+        text-align: center;
+        left: 0;
+    }
+
+    .servicios {
+        top: -10vh;
+        left: 0;
+    }
+
+    .servicios div{
+        width: 80%;
+        display: table-row;
+    }
+
+    .boton3{
+        width: 100%;
+    }
+
+    .informacion p{
+        left: 0;
+    }
+
     .imagen{
         top: 5vh;
+        text-align: center;
     }
     .btn {
         text-align: center;
-        top: 10vh;
         right: 0%;
     }
 }
