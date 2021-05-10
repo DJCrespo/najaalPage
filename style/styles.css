@@ -208,6 +208,7 @@ ul.show {
 @media only screen and (max-width:800px){
     .informacion, .imagen, .btn{
         width: 100%;
+        position: inherit;
     }
 
     .informacion{
