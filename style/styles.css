@@ -216,7 +216,15 @@ ul.show {
     }
 
     .subtitle {
-        font-size: 15px;
+        font-size: 30px;
+    }
+
+    .text1 {
+        font-size: 24px;
+    }
+
+    .text2 {
+        font-size: 20px;
     }
 
     .informacion{
@@ -259,6 +267,10 @@ ul.show {
 
     .boton4 {
         font-size: 35px;
+    }
+
+    .botonPrin {
+        font-size: 20px;
     }
 
     .btn2 {
