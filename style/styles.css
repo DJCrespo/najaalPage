@@ -215,6 +215,10 @@ ul.show {
         position: inherit;
     }
 
+    .subtitle {
+        font-size: 15px;
+    }
+
     .informacion{
         text-align: center;
         left: 0;
