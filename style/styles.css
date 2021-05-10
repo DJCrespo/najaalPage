@@ -258,8 +258,7 @@ ul.show {
         background-color: black;
         position: fixed;
         align-items: center;
-        width: 93%;
-        left: 0;
+        width: 89%;
         height: calc(100% - 65px);
         top: -100vh;
         text-align: center;
