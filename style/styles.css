@@ -213,6 +213,11 @@ ul.show {
     .informacion, .imagen, .btn{
         width: 100%;
         position: inherit;
+        align-items: center;
+    }
+
+    .imagen {
+        float: center;
     }
 
     .subtitle {
@@ -266,7 +271,7 @@ ul.show {
     }
 
     .boton4 {
-        font-size: 35px;
+        font-size: 20px;
     }
 
     .botonPrin {
