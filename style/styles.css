@@ -255,7 +255,7 @@ ul.show {
         display: inline-flex;
     }
     .menuItems {
-        background-color: steelblue;
+        background-color: black;
         position: fixed;
         width: 100vw;
         left: 0;
