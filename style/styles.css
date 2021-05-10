@@ -102,12 +102,13 @@ ul.show {
     display: table-cell;
     position: relative;
     text-decoration: none;
+    align-items: center;
 }
 
 .servicios h2{
     font-family: 'Poppins', sans-serif;
     color:  #f8ac11;
-    font-size: large;
+    font-size: 25px;
     text-decoration: none;
 }
 
@@ -202,6 +203,10 @@ ul.show {
     padding: 4px;
 }
 
+.link {
+    text-decoration: none;
+}
+
 /*Renderizado para movil*/
 
 @media only screen and (max-width:800px){
@@ -216,17 +221,22 @@ ul.show {
     }
 
     .servicios {
+        position: inherit;
         top: -10vh;
         left: 0;
     }
 
     .servicios div{
-        width: 80%;
+        width: 100%;
         display: table-row;
     }
 
-    .boton3{
-        width: 100%;
+    .servicios div h2 {
+        font-size: 40px;
+    }
+
+    .servicios div p{
+        font-size: 20px;
     }
 
     .informacion p{
@@ -237,22 +247,39 @@ ul.show {
         top: 5vh;
         text-align: center;
     }
+
     .btn {
         text-align: center;
         right: 0%;
     }
+
+    .boton4 {
+        font-size: 35px;
+    }
+
+    .btn2 {
+        position: inherit;
+        margin-top: 20px;
+        text-align: center;
+        right: 0%;
+    }
+
     .logo {
         padding-left: 5px;
     }
+
     .logo img {
         width: 35%;
     }
+
     .menu {
         height: 65px;
     }
+
     .btn-menu {
         display: inline-flex;
     }
+
     .menuItems {
         background-color: black;
         position: fixed;
@@ -265,6 +292,7 @@ ul.show {
         transition: all .4s;
         flex-direction: column;
     }
+
     .menuItems li {
         padding: 0 0 0 0;
         text-align: center;
@@ -274,12 +302,14 @@ ul.show {
         line-height: 30px;
         text-align: center;
     }
+    
     .menuItems li a {
         text-align: center;
         font-size: 20px;
         color: white;
         font-weight: bold;
     }
+
     ul {
         padding-inline-start: 0px;
     }
