@@ -29,6 +29,15 @@
     background-color: black;
 }
 
+#bodyUs {
+    background-image: url('../resources/nosotros2.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+
 /*Barra de navegacion*/
 
 .menu {
@@ -126,6 +135,7 @@ ul.show {
     top: -14vh;
 }
 
+
 /*Parte generica, se puede aplicar en varias vistas*/
 
 .botonPrin {
@@ -138,6 +148,14 @@ ul.show {
     background-color: #f8ac11;
     text-decoration: none;
     padding: 4px;
+}
+
+.btn3 {
+    position: relative;
+    width: 50%;
+    text-align: right;
+    right: -35vw;
+    top: 18vh;
 }
 
 .title{
