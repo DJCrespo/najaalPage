@@ -132,9 +132,40 @@ ul.show {
     width: 100%;
     position: relative;
     text-align: center;
-    top: -14vh;
+    top: 2vh;
 }
 
+.informacionServicios {
+    Width: 50%;
+    margin-top: 10vh;
+    float: left;
+    text-align: left;
+    position: relative;
+    left: 8vw;
+    top:-5vh;
+}
+
+.imagenServicios {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: right;
+    text-align: center;
+}
+
+.text1Servicios{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 4vmin;
+    font-weight: normal;
+}
+
+.titleServicios{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18vmin;
+    color:white;
+}
 
 /*Parte generica, se puede aplicar en varias vistas*/
 
@@ -152,10 +183,9 @@ ul.show {
 
 .btn3 {
     position: relative;
-    width: 50%;
-    text-align: right;
-    right: -35vw;
-    top: 18vh;
+    width: 100%;
+    text-align: center;
+    top: -16vh;
 }
 
 .title{
@@ -218,7 +248,11 @@ ul.show {
     border-radius: 30px;
     background-color: #f8ac11;
     text-decoration: none;
-    padding: 4px;
+    padding: 9px;
+}
+
+.boton4:hover {
+    color: white;
 }
 
 .link {
@@ -228,7 +262,7 @@ ul.show {
 /*Renderizado para movil*/
 
 @media only screen and (max-width:800px){
-    .informacion, .imagen, .btn{
+    .informacion, .imagen, .btn, .imagenServicios, .informacionServicios{
         width: 100%;
         position: inherit;
         align-items: center;
@@ -253,6 +287,18 @@ ul.show {
     .informacion{
         text-align: center;
         left: 0;
+    }
+
+    .informacionServicios {
+        text-align: center;
+    }
+    
+    .btn2 {
+        text-align: center;
+    }
+
+    .imagenServicios img{
+        width: 80%;
     }
 
     .servicios {
@@ -296,10 +342,11 @@ ul.show {
         font-size: 20px;
     }
 
-    .btn2 {
-        position: inherit;
-        margin-top: 20px;
-        text-align: center;
+    .btn3 {
+        width: 100%;
+        position: relative;
+        align-items: center;
+        top: -10vh;
         right: 0%;
     }
 
