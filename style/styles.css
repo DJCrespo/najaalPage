@@ -128,16 +128,27 @@ ul.show {
     text-decoration: none;
 }
 
+.btn5{
+    float: left;
+}
+
 .btn2{
     width: 100%;
     position: relative;
+    float: center;
     text-align: center;
-    top: 2vh;
+    top: -14vh;
+}
+
+.botones {
+    position: relative;
+    width: 100%;
+    top: 10vh;
 }
 
 .informacionServicios {
     Width: 50%;
-    margin-top: 10vh;
+    /*margin-top: 10vh;*/
     float: left;
     text-align: left;
     position: relative;
@@ -147,7 +158,6 @@ ul.show {
 
 .imagenServicios {
     width: 50%;
-    height: 100%;
     position: relative;
     float: right;
     text-align: center;
