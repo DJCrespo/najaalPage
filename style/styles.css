@@ -297,6 +297,10 @@ ul.show {
         text-align: center;
     }
 
+    .imagenServicios {
+        top: 20vh;
+    }
+
     .imagenServicios img{
         width: 80%;
     }
