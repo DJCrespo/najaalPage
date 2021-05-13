@@ -137,7 +137,7 @@ ul.show {
     position: relative;
     float: center;
     text-align: center;
-    top: 10vh;
+    top: -14vh;
 }
 
 .botones {
@@ -304,15 +304,22 @@ ul.show {
     }
     
     .btn2 {
+        top: 3vh;
         text-align: center;
     }
 
     .imagenServicios {
-        top: 20vh;
+        margin-top: 4vh;
+        position: inherit;
     }
 
     .imagenServicios img{
-        width: 80%;
+        margin-bottom: 4vh;
+        width: 50%;
+    }
+
+    .imagenServicios a {
+        top: 10vh;
     }
 
     .servicios {
