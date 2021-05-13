@@ -300,6 +300,7 @@ ul.show {
     }
 
     .informacionServicios {
+        position: inherit;
         text-align: center;
     }
     
@@ -309,7 +310,7 @@ ul.show {
     }
 
     .imagenServicios {
-        margin-top: 4vh;
+        margin-top: 3vh;
         position: inherit;
     }
 
