@@ -30,7 +30,7 @@
 }
 
 #bodyUs {
-    background-image: url('../resources/nosotros2.png');
+    background-image: url('../resources/fondoNosotros2.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -269,6 +269,27 @@ ul.show {
     text-decoration: none;
 }
 
+/*CSS nosotros*/
+
+.informacionUs {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.titleUs {
+    color: #f8ac11;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 8vmin;
+}
+
+.information {
+    color : white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vmin;
+}
+
 /*Renderizado para movil*/
 
 @media only screen and (max-width:800px){
@@ -276,6 +297,14 @@ ul.show {
         width: 100%;
         position: inherit;
         align-items: center;
+    }
+
+    .information {
+        font-size: 4vmin;
+    }
+
+    .titleUs {
+        font-size: 10vmin;
     }
 
     .imagen {
