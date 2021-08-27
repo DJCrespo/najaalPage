@@ -3,6 +3,10 @@
 
 /*Body*/
 
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
+}
+
 #bodyServicios {
     background-image: url('../resources/fondoNosotros.png');
     background-size: cover;
