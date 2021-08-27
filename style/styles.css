@@ -2,7 +2,8 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 
 :root{
-    --navbar-item-active-background-color: black;
+    --navbar-item-active-background-color: transparent;
+    --navbar-item-active-color: black;
 }
 
 /*Body*/
@@ -103,7 +104,10 @@
     
 }
 
-
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+    background-color: #2e2e2e9f;
+    color: #ffffff;
+}
 
 
 
