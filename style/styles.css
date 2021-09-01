@@ -74,10 +74,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.plogo{
+    padding-left: 4rem;
+}
+.pnav{
+    padding-right: 3.5rem;
+}
 
-.column{
+#imgsize{
+    width: 90%;
+}
+#colTxt{
     padding-left: 6rem;
-    padding-top: 0%;
+    /* padding-top: 5rem; */
 }
 
 #menuIt{
@@ -88,20 +97,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.navbar-end{
-    justify-content: flex-end;
-    margin-left: 1100px;
-}
-
 .navbar-item{
     color: white;
-}
-.container {
-    flex-grow: 1;
-    position: relative;
-    width: auto;
-    margin: 0 5% 0 5%;
-    
 }
 
 .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
@@ -121,6 +118,7 @@
 #cotizar{
     color: #f8ac11;
 }
+
 .logo {
     margin-left: 20px;
 }
@@ -249,6 +247,7 @@ ul.show {
     font-weight: bold;
     font-size: 12vmin;
     color:white;
+    margin-bottom: 0;
 }
 
 .subtitle{
@@ -282,13 +281,6 @@ ul.show {
     left: 50px;
 }
 
-.imagen {
-    width: 75%;
-    height: 100%;
-    position: relative;
-    float: right;
-    text-align: center;
-}
 
 .btn{
     width: 100%;
