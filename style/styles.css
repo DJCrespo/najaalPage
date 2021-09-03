@@ -4,6 +4,11 @@
 :root{
     --navbar-item-active-background-color: transparent;
     --navbar-item-active-color: black;
+    --input-background-color: var(--black)
+}
+::placeholder{
+    color: white !important;
+    font-weight: bold;
 }
 
 /*Body*/
@@ -44,6 +49,106 @@
     background-color: black;
 }
 
+/* BULMA CLASS */
+.plogo{
+    padding-left: 4rem;
+}
+.pnav{
+    padding-right: 3rem;
+}
+
+#imgsize{
+    width: 29vmax;
+    margin-right: 0;
+    padding-right: 2rem;
+}
+#colTxt{
+    padding-left: 6rem;
+    /* padding-top: 5rem; */
+}
+
+.yellow{
+    color: #f8ac11;
+}
+
+.yeBG{
+    background-color: #f8ac11;
+    color: white;
+}
+.blue{
+    color: #0498ea;
+}
+
+#ptUs{
+    padding-top: 5px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#menuIt{
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-item{
+    color: white;
+}
+
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+    background-color: #2e2e2e9f;
+    color: #ffffff;
+}
+
+.btn-menu {
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+    display: none;
+}
+
+#cotizar{
+    color: #f8ac11;
+}
+
+.imgUs{
+    position: absolute;
+}
+
+.subtitleUs{
+    font-family: 'Poppins', sans-serif;
+    color: #f8ac11;
+    font-size: 4vmin;
+    padding-top: 10px;
+    background-color: rgba(68, 66, 66, 0.068);
+}
+
+.titleCot{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 6.5vmin;
+    color:white;
+}
+
+.butCot{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 6.5vmin;
+    color:white;
+    text-align: center;
+}
+
+.gus{
+    background-image: url("../resources/gusanito.png");
+    background-repeat: no-repeat;
+    background-position-y: 3.6rem;
+    background-size: 100%;
+}
+
+
+
 /*Barra de navegacion*/
 
 .menu {
@@ -72,51 +177,6 @@
     display: block;
     color: white;
     font-family: 'Poppins', sans-serif;
-}
-
-.plogo{
-    padding-left: 4rem;
-}
-.pnav{
-    padding-right: 3.5rem;
-}
-
-#imgsize{
-    width: 90%;
-}
-#colTxt{
-    padding-left: 6rem;
-    /* padding-top: 5rem; */
-}
-
-#menuIt{
-    padding: 7px 13px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-}
-
-.navbar-item{
-    color: white;
-}
-
-.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
-    background-color: #2e2e2e9f;
-    color: #ffffff;
-}
-
-
-
-.btn-menu {
-    margin-right: 30px;
-    font-size: 25px;
-    color: white;
-    display: none;
-}
-
-#cotizar{
-    color: #f8ac11;
 }
 
 .logo {
@@ -245,7 +305,7 @@ ul.show {
 .title{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 12vmin;
+    font-size: 15vmin;
     color:white;
     margin-bottom: 0;
 }
@@ -253,7 +313,8 @@ ul.show {
 .subtitle{
     font-family: 'Poppins', sans-serif;
     color: #f8ac11;
-    font-size: 5vmin;
+    font-size: 4vmin;
+    padding-top: 10px;
 }
 
 .text1{
@@ -265,7 +326,7 @@ ul.show {
 .text2{
     font-family: 'Poppins', sans-serif;
     color: white;
-    font-size: 2.4vmin;
+    font-size: 2.2vmin;
     font-weight: bold;
 }
 
