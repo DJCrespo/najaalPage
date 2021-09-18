@@ -7,9 +7,14 @@
     <meta name="viewport" content="width=º, initial-scale=1.0">
     <link rel="stylesheet" href="style/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://kit.fontawesome.com/55f03c02ec.js" crossorigin="anonymous"></script>
     <script src="../js/menu.js"></script>
     <link rel="shortcut icon" href="resources/favicon.png">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="js/services.js"></script>
+    <script type="text/javascript" src="js/email.js"></script>
     <title>Cotizar</title>
 </head>
 <body id="multi">
@@ -41,63 +46,62 @@
                 </div>
            </div>
         </nav>
-        <!-- <div class="hero-body is-fullheight animate__animated animate__zoomIn">
-            <div class="field">
-                <div class="control">
-                    <input class="yeBG input" type="text" placeholder="Nombre">
-                </div>
-            </div>
-        </div> -->
         <div class="hero-body animate__animated animate__zoomIn">
             <div class="columns">
                 <div id="colTxt" class="column">
                     <div class="containter has-text-left ">
                         <p>
                             <h1 class="titleCot">ESTAS A PUNTO DE CONVERTIRTE<br> EN UNA <span class="yellow">NÁAJAL BRAND</span></h1>
-                    </div>
-                    <div class="has-text-black" style="width: 70%;">
+                    </div>                    
+                </div>
+                <div class="column">
+                    <form id="contact-form">
                         <div class="field">
-                            <div class="control has-icons-left">
-                                <input class="yeBG input" type="text" placeholder="NOMBRE">
+                            <p class="control has-icons-left has-icons-right">
+                                <input class="input" type="text" placeholder="Nombre">
                                 <span class="icon is-small is-left">
-                                    <i class="fas fa-user"></i>
-                                </span>
-                            </div>
+                                    <ion-icon name="person-circle" size="small"></ion-icon>
+                                </span> 
+                            </p>
                         </div>
                         <div class="field">
-                            <div class="control has-icons-left">
-                                <input class="yeBG input" type="text" placeholder="E-MAIL">
+                            <p class="control has-icons-left has-icons-right">
+                                <input class="input" type="email" placeholder="E-mail">
                                 <span class="icon is-small is-left">
-                                    <i class="fas fa-envelope"></i>
+                                    <ion-icon name="mail" size="small"></ion-icon>
                                 </span>
-                            </div>
+                            </p>
                         </div>
                         <div class="field">
-                            <div class="control has-icons-left">
-                                <input class="yeBG input" type="text" placeholder="TELÉFONO">
+                            <p class="control has-icons-left has-icons-right">
+                                <input class="input" type="tel" placeholder="Teléfono">
                                 <span class="icon is-small is-left">
-                                    <i class="fas fa-phone-alt"></i>
+                                    <ion-icon name="call" size="small"></ion-icon>
                                 </span>
-                                
-                            </div>
+                            </p>
                         </div>
                         <div class="field">
-                            <div class="control has-icons-left">
-                                <input class="yeBG input" type="text" placeholder="SERVICIO">
+                            <p class="control has-icons-left has-icons-right">
+                                <input class="input" type="text" placeholder="Servicio">
                                 <span class="icon is-small is-left">
-                                    <i class="fas fa-taxi"></i>
+                                    <ion-icon name="create" size="small"></ion-icon>
                                 </span>
-                            </div>
+                            </p>
                         </div>
                         <div class="field">
-                            <div class="control has-icons-left has-text-centered">
-                                <input class="yeBG input" type="text" placeholder="PROYECTO" style="height: 8vw;">
-                                <a class="butCot" href="">ENVIAR</a>
-                            </div>
+                            <p class="control has-icons-left has-icons-right">
+                                <textarea class="textarea" placeholder="Mensaje"></textarea>
+                            </p>
                         </div>
-                    </div>
-                    
-                </div>  <!--fin colunma 1 -->
+                        <div class="field">
+                            <div class="control">
+                              <button class="button is-primary">
+                                Enviar
+                              </button>
+                            </div>
+                          </div>
+                    </form>
+                </div>
             </div>
          </div>
         </div>
