@@ -8,64 +8,51 @@
     <link rel="stylesheet" href="style/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://kit.fontawesome.com/55f03c02ec.js" crossorigin="anonymous"></script>
-    <script src="../js/menu.js"></script>
+    <script src="js/menu.js"></script>
     <link rel="shortcut icon" href="resources/favicon.png">
     <title>Home</title>
 </head>
-<body id="multi">
+<body class="background">
     <section class="hero is-fullheight">
          <!--navbar-->
        <nav class="navbar" role="navigation">
-            <div class="navbar-brand plogo pt-2">
-              <a class="navbar-item" href="index.html">
-                <img src="resources/favicon.png" style="max-height: 80px;">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="">
+                <img class="logo" src="resources/favicon.png" alt="Grupo Naajal">
+            </a>
+
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
               </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-end">
+                <a class="navbar-item gus">Home</a>
+                <a class="navbar-item">Nosotros</a>
+                <a class="navbar-item">Servicios</a>
+                <a class="navbar-item"><span class="yellow">Cotizar</span></a>
             </div>
-            <div class="navbar-menu pnav">
-              <div id="menuIt" class="navbar-end">
-                  <a class="navbar-item gus" href="index.html">
-                      HOME
-                  </a>
-                  <a class="navbar-item" href="nosotros.html">
-                      NOSOTROS
-                  </a>
-                  <a class="navbar-item" href="">
-                      SERVICIOS
-                  </a>
-                  <a class="navbar-item">
-                      BLOG
-                  </a>
-                  <a id="cotizar" class="navbar-item" href="cotizar.html">
-                      COTIZAR
-                  </a>
-              </div>
-          </div>
+        </div>
        </nav>
        <!-- Body -->
         <div class="hero-body animate__animated animate__zoomIn">
             <div class="columns">
-                <div id="colTxt" class="column is-10">
-                    <div class="containter has-text-left ">
-                        <p>
-                            <h1 class="title">AGENCIA <br> CREATIVA</h1>
-                            <p class="text2">BRANDING <span class="yellow">&#183;</span> MARCA PERSONAL <span class="yellow">&#183;</span> CREACIÓN DE CONTENIDO <span class="yellow">&#183;</span> SITIO WEB</p>
-                            <h2 class="subtitle"> K'aam Yéetel" (Bienvenido en Maya)</h2>
-                        </p>
+                <div class="column is-8">
+                    <div id="content" class="containter has-text-left">
+                            <h1 class="title">AGENCIA CREATIVA</h1>
+                            <h1 class="title is-4 is-spaced">BRANDING <span class="yellow">&#183;</span> MARCA PERSONAL <span class="yellow">&#183;</span> CREACIÓN DE CONTENIDO <span class="yellow">&#183;</span> SITIO WEB</h1>
+                            <h2 class="subtitle is-3"><span class="yellow">K'aam Yéetel" (Bienvenido en Maya)</span></h2>
                     </div>
-                    <!-- <div class="btn">
-                        <br>
-                        <a class="botonPrin" href="pages/nosotros.html">¿Quienes somos?</a>
-                    </div>  -->
-                </div>  <!--fin colunma 1 -->
-                <div class="column">
-                    <figure id="imgsize"class="image">
+                </div>
+                <div class="column is-4">
+                    <figure class="image">
                         <img src="resources/logoH.png" style="max-width: 90%;">
                     </figure>
                 </div>
             </div>
          </div>
-        </div>
-        </div>
     </section>  
 </body>
 </html>
