@@ -30,12 +30,20 @@
     color: white;
 }
 
-.navbar-menu {
+.navbar-end {
     padding-right: 3rem;
 }
 
 .navbar-brand {
     padding-left: 3rem;
+}
+
+.navbar-menu {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
