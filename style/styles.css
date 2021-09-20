@@ -7,8 +7,7 @@
     --input-background-color: var(--black);
 }
 ::placeholder{
-    color: white !important;
-    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
 }
 
 .material-icons-outlined {
@@ -69,9 +68,68 @@
     max-height: 80px;
 }
 
-.gus{
+#gus{
     background-image: url("../resources/gusanito.png");
     background-repeat: no-repeat;
     background-position-y: 3.6rem;
     background-size: 100%;
+}
+
+.label {
+    color: white;
+}
+
+.navbar-burger {
+    padding-right: 14vw;
+    padding-top: 15vh;
+}
+
+.navbar-burger span{
+    color: white;
+    width: 30px;
+}
+
+.field.is-grouped {
+    padding-left: 6.5vw;
+}
+
+.title.cotizacion {
+    font-size: 30px;
+}
+
+.image {
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    background-color: #f8ab11d3;
+    border-color: #f8ac11;
+}
+
+.textarea {
+    background-color: #f8ab11d3;
+    border-color: #f8ac11;
+}
+
+ion-icon {
+    color: white;
+}
+
+.buttons {
+    justify-content: center;
+}
+
+.button.is-naajal {
+    background-color: #f8ab11;
+    border-color: #f8ac11;
+    color: white;
+}
+
+
+@media only screen {
+    .navbar-menu {
+        background-color: rgba(0, 0, 0, 0);
+    }
 }
