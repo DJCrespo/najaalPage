@@ -122,6 +122,12 @@
     border-color: #f8ac11;
 }
 
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+
 .content-divider {
     background-color: #f8ab11;
 }
@@ -138,6 +144,10 @@ ion-icon {
     background-color: #f8ab11;
     border-color: #f8ac11;
     color: white;
+}
+
+.card-image {
+    background-color: black;
 }
 
 
