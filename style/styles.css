@@ -97,8 +97,13 @@
     font-size: 30px;
 }
 
-.image {
+.image.cotizar {
     padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.image.servicios {
     display: flex;
     justify-content: center;
 }
@@ -108,9 +113,17 @@
     border-color: #f8ac11;
 }
 
+.subtitle {
+    color: white;
+}
+
 .textarea {
     background-color: #f8ab11d3;
     border-color: #f8ac11;
+}
+
+.content-divider {
+    background-color: #f8ab11;
 }
 
 ion-icon {
@@ -131,5 +144,9 @@ ion-icon {
 @media only screen {
     .navbar-menu {
         background-color: rgba(0, 0, 0, 0);
+    }
+
+    .image.servicios {
+        
     }
 }
