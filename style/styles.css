@@ -11,7 +11,6 @@
     color: bisque;
 }
 
-/* Modificaciones en el framework bulma */
 .background {
     background-image: url('../resources/background.png');
     background-size: cover;
