@@ -1,6 +1,3 @@
-#carpetas
-.vscode/
-resources/nosotros.svg
-Archivos nuevos/
-.old_page/
-.others/
+vscode
+old_pages
+others
